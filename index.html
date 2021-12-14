@@ -10,7 +10,7 @@
     <link rel="stylesheet" title="basico" href="estilo/general.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script src="Buscador.js"></script>
 </head>
 
 <body>
@@ -40,18 +40,20 @@
                         <a class="nav-link" href="series.html" title="series">Series</a>
                     </li>
                 </ul>
-                <form class="d-flex">
+
+
+                <div class="d-flex">
                     <label for="buscar" hidden>Búsqueda: </label>
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" name="buscar">
-                    <button class="btn btn-success" type="submit">Buscar</button>
-                </form>
+                    <input class="form-control me-2" id="buscador" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-success" onclick="filtrar()" type="button">Buscar</button>
+                </div>
             </div>
         </div>
     </nav>
 
     <main>
 
-        <div class="container">
+        <div id="container" class="container">
             <h1>Sobre mí</h1>
             <div id="infoGeneral" class="row">
                 <div class="col-sm-3 col-md-4">
