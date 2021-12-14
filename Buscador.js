@@ -24,7 +24,7 @@ function filtrarIndex() {
 
 
     if (indexPalabras.indexOf(busqueda) !== -1) {
-        html = html + '<div class=resultado>Coincidencias en <div class=nav-item><a class="nav-link" href="index.html" title="index">Index</a> </div></div>'
+        html = html + '<div class=resultado>Coincidencias en <div class=nav-item><a class="enlace" href="index.html" title="index">Index</a> </div></div>'
     }
 }
 
@@ -34,7 +34,7 @@ function filtrarAficiones() {
 
 
     if (indexPalabras.indexOf(busqueda) !== -1) {
-        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="nav-link" href="aficiones.html" title="aficiones">Aficiones</a> </div></div>'
+        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="enlace" href="aficiones.html" title="aficiones">Aficiones</a> </div></div>'
     }
 }
 
@@ -44,7 +44,7 @@ function filtrarMusica() {
 
 
     if (indexPalabras.indexOf(busqueda) !== -1) {
-        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="nav-link" href="index.html" title="musica">Música</a> </div></div>'
+        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="enlace" href="index.html" title="musica">Música</a> </div></div>'
     }
 }
 
@@ -54,6 +54,6 @@ function filtrarSeries() {
 
 
     if (indexPalabras.indexOf(busqueda) !== -1) {
-        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="nav-link" href="series.html" title="series">Series</a> </div></div>'
+        html = html + '<div class=resultado>Coincidencias en <div class=nav-item> <a class="enlace" href="series.html" title="series">Series</a> </div></div>'
     }
 }
