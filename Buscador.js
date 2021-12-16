@@ -16,6 +16,10 @@ function filtrar() {
 
     document.getElementById('container').innerHTML = '<h1>Resultados de búsqueda</h1>' +
         html;
+
+    if (html === '') {
+        document.getElementById('container').innerHTML = '<h1>Sin resultados</h1>'
+    }
 }
 
 function filtrarIndex() {
